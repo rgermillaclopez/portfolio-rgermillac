@@ -1,10 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Michroma&family=Outfit&display=swap');
+
+
 section{
-  color: green;
-  text-shadow: 3px 3px rgba(50,50,70,0.5);
-  background-color: red;
+  color: #2E2929;
   height: 100vh;
+  font-family: 'Outfit';
+  font-size: 20px;
+  text-align: center;
 }
 
 .navBg{
-  background-color: blue;
+  background-color: #C7F181;
+  font-family: 'Outfit';
+  margin-bottom: 2rem;
+  
 }
+
+
+.me-auto{
+  color: #2E2929;
+
+}
+
+.logo{
+  font-family: 'Michroma';
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.aboutme{
+  text-align: justify;
+  padding: 1rem;
+}
+
+.curriculum{
+  font-family: 'Outfit';
+  font-weight: 700;
+  color:#2E2929;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
