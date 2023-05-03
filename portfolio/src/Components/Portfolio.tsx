@@ -1,24 +1,24 @@
 import React from 'react'
-import CarouselPortfolio from './Carousel'
+import CardsCarousel from './CardsCarousel'
 
 
 
 
-const Portfolio = () => {
+function Portfolio() {
   return (
-    <div>
+    <div className='portfolio'>
         <h1 className='titles'>Portfolio</h1>
-        
-        <CarouselPortfolio />
-        
-        <button className='curriculum'>
-            <a className='curriculum' href='./curriculum.pdf' download>
-              Descargar Curriculum
-            </a>
-        </button>
 
+
+        <div className='ubicacion'>
+          <CardsCarousel /> 
+        </div>
+
+       
+      
+        
     </div>
   )
 }
 
-export default Portfolio
+export default Portfolio;

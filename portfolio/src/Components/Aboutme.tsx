@@ -14,6 +14,13 @@ const Aboutme = () => {
         participate in front-end and back-end tasks. In the long term my goal is to achieve the 
         merging between tecnology and sports nutrition.
         </p>
+    
+
+      <button className='curriculum'>
+      <a className='curriculum' href='./curriculum.pdf' download>
+            Descargar Curriculum
+      </a>
+      </button>
     </div>
   )
 }

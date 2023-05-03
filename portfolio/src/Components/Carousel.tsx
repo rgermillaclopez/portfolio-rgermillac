@@ -8,7 +8,7 @@ import caritas from '../Assets/caritas.svg'
 function CarouselPortfolio() {
   return (
     <div>
-    <Carousel fade>
+    <Carousel fade >
       <Carousel.Item>
         <img
           className="d-block w-75"
