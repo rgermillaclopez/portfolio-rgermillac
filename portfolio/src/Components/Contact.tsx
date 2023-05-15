@@ -3,7 +3,7 @@ import github from '../Assets/github.svg'
 import linkedin from '../Assets/linkedin.svg'
 import gmail from '../Assets/gmail.svg'
 import { Route } from 'react-router-dom'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Button } from 'react-bootstrap'
 
 const Contact = () => {
   return (
@@ -12,25 +12,20 @@ const Contact = () => {
         
         <Container fluid>
         <Row className='contact'>
-        <Col>
-        <a href='https://github.com/rgermillaclopez'>
-        <img className='social' src={github} alt='github'/>
-        </a>
-        {/* </Col>
-        <Col> */}
-        <a href='https://www.linkedin.com/in/rocio-germillac-lopez/'>
-        <img className='social' src={linkedin} alt='linkedin'/>
-        </a>
-        {/* </Col>
-        <Col> */}
-        <a href="mailto:rgermillaclopez@gmail.com">
-        <img className='social' src={gmail} alt='gmail'/>
-        </a>
+          <Row className='mail'>
+          <Button className='social' href="mailto:rgermillaclopez@gmail.com"><h2>rgermillaclopez@gmail.com</h2></Button>
+          </Row>
+        <Col className='container-social'>
+          
+          <Button className='social' href='https://github.com/rgermillaclopez'><img src={github} alt='github'/></Button>
+        
+          <Button className='social' href='https://www.linkedin.com/in/rocio-germillac-lopez/'><img src={linkedin} alt='linkedin'/></Button>
         </Col>
         </Row>
         </Container>
 
         <h1 className='footer-contact'> ROCIO GERMILLAC LOPEZ - 2023 </h1>
+        <h2>08013, Barcelona</h2>
 
     </div>
   )
