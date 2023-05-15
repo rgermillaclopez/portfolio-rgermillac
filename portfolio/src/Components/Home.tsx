@@ -26,16 +26,21 @@ function Home() {
         <div className='first'>
           <Aboutme />
         </div>
+
         <div className='portfolio'>
         <h1 className='titles'>Portfolio</h1>
 
         <div className='ubicacion'>
           <CardsCarousel /> 
         </div>
-       
+
+        <div>
+        <Contact />
+        </div>    
+
     </div>
 
-    <Contact />
+    
 </div>
   );
 }

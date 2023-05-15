@@ -1,7 +1,6 @@
 import React from 'react'
 import github from '../Assets/github.svg'
 import linkedin from '../Assets/linkedin.svg'
-import gmail from '../Assets/gmail.svg'
 import { Route } from 'react-router-dom'
 import { Container, Row, Col, Button } from 'react-bootstrap'
 

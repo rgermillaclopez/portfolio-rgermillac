@@ -1,8 +1,10 @@
 import React from 'react'
+import { Button, Container, Row } from 'react-bootstrap'
 
 const Aboutme = () => {
   return (
-    <div>
+       <div className='first'>
+       
         <h1 className='titles'>About me...</h1>
         <p className='aboutme'>
         Fullstack developer with studies in sports and health science. I'm multitasked, organized, 
@@ -14,13 +16,12 @@ const Aboutme = () => {
         participate in front-end and back-end tasks. In the long term my goal is to achieve the 
         merging between tecnology and sports nutrition.
         </p>
-    
-
-      <button className='curriculum'>
-      <a className='curriculum' href='./curriculum.pdf' download>
-            Descargar Curriculum
-      </a>
-      </button>
+        <Button className='curriculum'>
+        <a className='curriculum' href='./curriculum.pdf' download>
+             Curriculum - Download
+        </a>
+        </Button>
+        
     </div>
   )
 }
